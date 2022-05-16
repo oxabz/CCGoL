@@ -1,0 +1,35 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75em;
+    box-shadow: 0 1px var(--muted-border-color); 
+
+    margin-bottom: 1em;
+
+    a {
+        font-size: 2em;
+        color: var(--contrast);
+    }
+
+    h1{
+        font-weight: bolder;
+        font-size: 2em;
+        margin: 0;
+    }
+}
+
+.hero{
+    width: 100%;
+
+    .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    //background-color: var(--contrast)
+}
+
+#grid-canvas{
+    height: 70vh;
+    image-rendering: pixelated;
+}
